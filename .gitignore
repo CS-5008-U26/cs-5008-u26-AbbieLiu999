@@ -1,3 +1,16 @@
+# CS-5008 compiled programs (Unix executables have no extension)
+helloworld
+firstcprogram
+secondcprogram
+thirdcprogram
+paycheck
+
+# macOS Finder metadata
+.DS_Store
+
+# VS Code workspace settings
+.vscode/
+
 # Prerequisites
 *.d
 
