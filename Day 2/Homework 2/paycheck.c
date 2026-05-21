@@ -41,5 +41,7 @@ int main () {
         }
         printf("You should be paid: %.2f\n", paycheck);
     }
-    return 0;
+    
+    // Wait for user input before exiting
+    fgets(s, 100, stdin);
 }

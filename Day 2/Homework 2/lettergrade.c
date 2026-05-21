@@ -3,10 +3,10 @@
  * CS-5008 Summer 2026
  * Dan Liu
  * 
- * Asks for a number score from 1 to 10
+ * Asks for a number score from 1 to 10.
  * Prints the corresponding letter grade (A-F).
  * Print an error message if the user enters a number greater than 10 or less than 1.
- * Using if-else statements
+ * Using if-else statements.
  */
 
 #include <stdio.h>
@@ -36,4 +36,7 @@ int main() {
     } else {
         printf("Error: Please enter a number between 1 and 10.\n");
     }
+
+    // Wait for user input before exiting
+    fgets(s, 100, stdin);
 }
