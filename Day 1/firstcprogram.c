@@ -19,13 +19,13 @@ int main() {
     char s[100];                    // s is used to "pause" the console so it doesn't exit too quickly
 
     /* Ask for a number and print it out */
-    printf("Enter a number:\n");     // prompt the user
+    printf("Enter a number: ");     // prompt the user
     scanf("%d", &x);                // read a number from the console ("stdin")
     fgets(s,100,stdin);             // sadly, we have to remove the \n that scanf leaves in stdin
    
     
     /* Ask for another number and print it out */
-    printf("Enter another number:\n"); 
+    printf("Enter another number: "); 
     scanf("%d", &y);                  
     fgets(s,100,stdin);                
     
